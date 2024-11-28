@@ -1,0 +1,518 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+
+/****************************** start SECTION HEADER ******************************/
+
+.nav{
+    margin-left: auto;
+    margin-right: auto;
+}
+.anchor a{
+    color: #6854FF;
+}
+
+
+/****************************** end SECTION HEADER ******************************/
+
+
+
+
+
+/****************************** start SECTION 1 ******************************/
+
+
+
+.section1{
+    margin-top: 50px;
+    text-align: center;
+    background: linear-gradient(360deg, rgba(239,236,255,1) 16%, rgba(255,255,255,1) 59%);
+}
+.sec1{
+    text-align: center;
+}
+.sec1 h1{
+    background: linear-gradient(90deg, rgba(91,112,228,1) 48%, rgba(102,187,246,1) 59%);
+    color: transparent;
+    background-clip: text;
+    font-size: 80px;
+    font-weight: 800;
+}
+.sec1 p{
+    font-size: 20px;
+}
+
+/****************************** end SECTION 1 ******************************/
+
+
+
+
+
+
+/****************************** start SECTION 1 ******************************/
+
+.heading h1{
+    font-size: 28px;
+    background: linear-gradient(360deg, rgba(138,69,249,1) 43%, rgba(98,63,229,1) 66%);
+    color: transparent;
+    background-clip: text;
+}
+.bigContainer{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.smallCOntainer{
+    border: 2px solid #6851FF;
+    border-radius: 8px;
+    padding: 7px 10px;
+    color: #6851FF;
+}
+
+.smallCOntainer:hover{
+    border: 2px solid #6851FF;
+    background: #ebe8ff;
+    border-radius: 8px;
+    padding: 7px 10px;
+    color: #6851FF;
+    cursor: pointer;
+}
+
+
+/****************************** end SECTION 1 ******************************/
+
+
+
+
+/****************************** INPUT  ******************************/
+
+.inputBox {
+    position: relative;
+    width: 50%;
+    display: inline-flex;
+    margin-top: 20PX;
+}
+.inputBox input{
+    width: 100%;
+    padding: 10px;
+    border: 2px solid rgb(201, 201, 201);
+    background: transparent;
+    outline: none;
+    border-radius: 5px;
+    color: #000;
+    font-size: 1em;
+    transition: .5s;
+
+}
+.inputBox span{
+    position: absolute;
+    left: 0;
+    padding: 10px;
+    pointer-events: none;
+    font-size: 1em;
+    color: rgb(201, 201, 201);
+    transition: .5s;
+
+}
+
+.inputBox input:valid~span,
+.inputBox input:focus~span{
+    color: #6851FF;
+    transform: translateX(10px) translateY(-7px);
+    font-size: 0.75em;
+    padding: 0 10px;
+    background: white;
+    
+    letter-spacing: 0.2em;
+}
+.inputBox input:valid,
+.inputBox input:focus{
+    border: 2px solid #6851FF;
+}
+.inputBox:nth-child(2) input:valid~span,
+.inputBox:nth-child(2) input:focus~span{
+    background: #6851FF;
+    color: #6851FF;
+    border-radius: 2px;
+}
+
+/************************************************************/
+
+
+
+
+
+
+/****************************** Button ******************************/
+
+
+.btns{
+    color: #fff;
+    background-color: #6851FF;
+    padding: 10px 24px;
+    border-radius: 25px;
+    border: none;
+    font-weight: 500;
+}
+.btns:hover{
+    background-color: #1e06b9;
+}
+
+
+/************************************************************/
+
+
+
+
+
+
+/****************************** start SECTION 2 ******************************/
+
+
+.section2 img{
+    background-position: center;
+    background-color: #F0EEFF;
+    width: 100%;
+}
+
+
+/****************************** end SECTION 2 ******************************/
+
+
+
+
+/****************************** start SECTION 3 & 5 ******************************/
+
+
+.section3{
+    margin-top: 150px;
+}
+.section3 h1{
+    font-size: 48px
+}
+.section3 h1>span{
+    color: #1e06b9;
+    font-size: 48px
+}
+.bigContainer1{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.cards{
+    background: linear-gradient(180deg, rgba(237,235,254,1) 43%, rgba(255,255,255,1) 66%);
+    border: 1px solid #fff;
+    border-radius: 24px;
+    padding: 50px;
+    text-align: center;
+    box-shadow: 0 4px 40px #bdb2ff3d;
+    font-size: 20px;
+}
+.cards:hover{
+    box-shadow: 0 4px 40px #2323243d;
+}
+
+.card1{
+    color: #1e06b9;
+}
+
+/****************************** end SECTION 3 & 5 ******************************/
+
+
+
+/****************************** start SECTION 4 ******************************/
+
+
+.section3 img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+
+
+/****************************** end SECTION 4 ******************************/
+
+
+
+
+
+/****************************** start SECTION 6 ******************************/
+
+
+
+
+
+.cards1{
+    border: 1px solid #fff;
+    border-radius: 8px;
+    padding: 30px;
+    line-height: 12px;
+    text-align: start;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 6px 12px;
+    background: rgb(255, 255, 255);
+    font-size: 17px;
+}
+
+.box{
+    display: flex;
+    justify-content: space-between;
+    gap: 80px;
+    
+}
+.cards1{
+    cursor: pointer;
+}
+.box1{
+    display: flex;
+    flex-direction: column;    
+}
+.box2{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+.box span{
+    font-weight: 500;
+    color: #1e06b9;
+}
+
+
+
+
+/****************************** end SECTION 6 ******************************/
+
+
+
+
+/****************************** start SECTION 7 ******************************/
+
+
+.section7{
+    margin-top: 155px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+
+.s1 h1{
+    font-size: 50px;
+}
+
+.s1 h1>span{
+    color: #1e06b9;
+    font-size: 50px;
+}
+
+
+
+
+.hr{
+    width: 2.6px;
+    height: 240px;
+    border: 2px solid #1e06b9;
+}
+
+/****************************** end SECTION 7 ******************************/
+
+
+
+
+
+
+/****************************** start SECTION FOOTER ******************************/
+
+
+.sectionFooter{
+    margin-top: 155px;
+    background: linear-gradient(360deg, rgba(151,71,255,1) 30%, rgba(78,59,220,1) 66%);
+}
+
+.topFooter{
+    display: flex;
+    justify-content: space-between;
+    padding: 70px;
+
+}
+.middleFooter{
+    padding: 70px;
+
+}
+.f1 p{
+    color: #fff;
+}
+.f1 p>span{
+    color: #fff;
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.middleFooter p>span{
+    color: #fff;
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.icons{
+    display: flex;
+    font-size: 30px;
+    color: #fff;
+    gap: 50px;
+}
+.hr1{
+    border: 1px solid #fff;
+    color: #fff;
+}
+.copyright a{
+    color: #fff;
+    text-decoration: none;
+}
+.copyright a:hover{
+    color: #fff;
+    text-decoration: underline;
+}
+.copyright{
+    color: #fff;
+}
+
+
+
+/****************************** start SECTION FOOTER ******************************/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width : 500px){
+
+/****************************** start SECTION 1 ******************************/
+
+    .sec1 h1{
+        font-size: 30px;
+    }
+    .sec1 p{
+        font-size: 18px;
+    }
+    br{
+        display: none;
+    }
+
+/****************************** end SECTION 1 ******************************/
+
+
+
+/****************************** INPUT  ******************************/
+
+
+
+
+    .inputBox {
+        position: relative;
+        width: 90%;
+        display: inline-flex;
+    }
+
+
+/************************************************************/
+
+
+/****************************** start SECTION 3 & 5 ******************************/
+
+
+
+    .bigContainer{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+
+
+/****************************** end SECTION 3 & 5 ******************************/
+
+
+
+
+
+/****************************** start SECTION 2 ******************************/
+
+
+    .section2{
+        display: none;
+    }
+
+
+/****************************** end SECTION 2 ******************************/
+
+
+
+/****************************** start SECTION 3 & 5 ******************************/
+
+
+    .bigContainer1{
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        flex-flow: wrap;
+    }
+    .section3 h1{
+        font-size: 30PX
+    }
+    .section3 h1>span{
+        color: #1e06b9;
+        font-size: 30PX;
+    }
+
+/****************************** end SECTION 3 & 5 ******************************/
+
+
+
+
+
+
+
+/****************************** end SECTION 7 ******************************/
+
+    .section7{
+        display: none;
+    }
+/****************************** end SECTION 7 ******************************/
+
+
+
+
+/****************************** start SECTION FOOTER ******************************/
+
+    .topFooter{
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+    }
+    .middleFooter{
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+        
+    }
+    .bottomFooter{
+        padding: 10px;
+    }
+/****************************** end SECTION FOOTER ******************************/
+
+}
